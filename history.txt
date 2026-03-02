@@ -1,0 +1,16 @@
+ 1148  git commit -m "Conflict 2 commit"
+ 1149  git push origin conflict2
+ 1150  git checkout main
+ 1151  git pull
+ 1152  git pull
+ 1153  touch .gitignore
+ 1154  git add .
+ 1155  git commit -m "gitignore commit"
+ 1156  touch no-commit.txt
+ 1157  git status
+ 1158  git push
+ 1159  echo >> "Hello Bash\n\n\n"
+ 1160  history | tail -n 200 >> history.txt
+ 1161  history | tail -n 800 >> history.txt
+ 1162  history | tail -n 1000 >> history.txt
+ 1163  history | tail -n 100000 >> history.txt
