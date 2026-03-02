@@ -1,1 +1,2 @@
-Some new text. New conflict(1).
+
+Some new text. New conliict(2).
